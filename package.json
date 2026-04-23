@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsx src/index.ts",
-    "dev": "tsx watch src/index.ts"
+    "start": "node init && tsx src/index.ts",
+    "dev": "node init && tsx watch src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +30,7 @@
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "morgan": "^1.10.1",
+    "node-fetch": "^3.3.2",
     "pg": "^8.17.2"
   }
 }
